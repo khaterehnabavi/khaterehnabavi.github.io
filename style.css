@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family:Ubuntu;
-    src: url('img/Ubuntu-Regular.ttf');
+    font-family:Kamran;
+    src: url('img/B\ Kamran\ Bold_0.ttf');
 
 }
 
@@ -13,7 +13,8 @@
 
 body {
     background-color: #202124;
-    font-family: 'Ubuntu';
+    font-family: 'Kamran';
+    direction: rtl;
 }
 
 .container {
@@ -35,11 +36,11 @@ i.fa {
 }
 
 .bp70 {
-    width: 70%;  
+    width: 60%;  
 }
 
 .bp60 {
-    width: 60%;
+    width: 70%;
 }
 .bp40 {
     width: 40%;   
@@ -50,7 +51,7 @@ i.fa {
     border-radius: 5px;
 }
 .description-box  ul li i{
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .left-side {
@@ -113,7 +114,6 @@ i.fa {
 
 .description-box {
     padding: 15px;
-
 }
 
 .description-box ul {
@@ -130,7 +130,7 @@ i.fa {
 }
 
 .description-box ul li span {
-    font-size: 16px;
+    font-size: 18px;
     margin-left: 10px;
     color: #fff;
 }
@@ -148,7 +148,9 @@ i.fa {
 
 .item-title {
     margin:  30px 0  0 5px;
+    font-size: 25px;
 }
+
 
 /* .item-title {
     margin-top: 30px;
@@ -157,10 +159,12 @@ i.fa {
 .right-side-item span i{
     margin-left: 5px;
 }
+
 .skills-item span {
     color: #fff;
     margin-top: 15px;
     display: inline;
+    font-size: 18px;
 }
 
 .progress-box {
@@ -176,6 +180,7 @@ i.fa {
     background-color: #BB86FC;
     padding: 2px;
     border-radius: 15px;
+    font-size: 20px;
 }
 
 .header-titel{
@@ -195,20 +200,30 @@ i.fa {
     color: #fff;
 
 }
+.right-side-item  span{
+    font-size: 20px;
+}
 
 .right-side-item h3,
 .right-side-item h4{
     margin: 15.4px 0;
+    font-size: 20PX;
+}
+.description-box span{
+    font-size: 30px;
 }
 .right-side-item p{
     margin: 15px 0 25px;
+    font-size: 22PX;
 }
+
 footer {
     background-color: #BB86FC;
     width: 100%;
-    height: 20px;
+    height: 40px;
     text-align: center;
-    padding: 20px 0;
+    /* padding: 20px 10px; */
+    font-size: 25px;
     color: #fff;
 }
 footer span {
